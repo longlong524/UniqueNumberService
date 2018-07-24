@@ -14,12 +14,13 @@
 # 使用方法
 1. 创建表
 
-  CREATE TABLE `number` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `num` bigint(20) DEFAULT '1',
-  `limitNum` bigint(20) DEFAULT '100',
-  PRIMARY KEY (`id`)
-  ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+    CREATE TABLE `number` (
+    `id` int(11) NOT NULL AUTO_INCREMENT,
+    `num` bigint(20) DEFAULT '1',
+    `limitNum` bigint(20) DEFAULT '100',
+    PRIMARY KEY (`id`)
+    ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+    
 
 num是起始数字
 limitNum是终止数字（包含）
