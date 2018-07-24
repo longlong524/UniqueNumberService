@@ -12,7 +12,8 @@
 
 
 # 使用方法
-1. 创建表
+
+## 创建表
 
     CREATE TABLE `number` (
     `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -25,26 +26,29 @@
 num是起始数字
 limitNum是终止数字（包含）
 
-2. 配置application.properties
+## 配置application.properties
 
 
-3. 启动UniquNumApplication
+## 启动UniquNumApplication
 
-4. 使用
+## 使用
+
 num为获取数量
 post to http://localhost:7653/getNum
-  {
-  "scretKey":"hfiwoefdhnbfekklwefw",
-  "num":10
-  }
+
+    {
+    "scretKey":"hfiwoefdhnbfekklwefw",
+    "num":10
+    }
 
 返回值：
 end为终止id
 start为起始id
-  {
+
+    {
     "code": 200,
     "end": 55230101,
     "start": 55230092,
     "success": true
-  }
+    }
 
