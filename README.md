@@ -9,6 +9,8 @@
 
 # 高可用性
 高可用性可以通过部署多个UniqueNumberService，每个UniqueNumberService负责不同的id段来实现。
+Client的地址：
+https://github.com/longlong524/UniqueNumClient
 
 
 # 使用方法
